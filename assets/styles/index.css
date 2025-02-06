@@ -1,0 +1,90 @@
+
+
+* {
+    /* reset styles*/
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: 0px;
+    appearance: none;
+
+    /* brand colors variables*/
+    --brown-dark: #933C24;
+    --brown-light: #E9BD8C;
+}
+
+
+.brown-dark {
+    color: var(--brown-dark)
+}
+
+.bg-brown-dark {
+    background-color: var(--brown-dark);
+}
+
+
+.brown-light {
+    color: var(--brown-light)
+}
+
+.bg-brown-light {
+    background-color: var(--brown-light);
+}
+
+#landing-banner {
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: auto;
+    aspect-ratio: 813 / 1280;
+    max-height: 100vmin;
+    background-position: center bottom;
+    color: #FFFFFF;
+    padding: 16px 64px;
+    position: relative;
+}
+
+#landing-banner header,
+#landing-banner nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#landing-banner nav {
+    gap: 32px;
+    font-size: 18px;
+}
+
+#landing-banner header{
+    position: absolute;
+    gap: 64px;
+}
+
+#landing-banner .content {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    gap:36px;
+    
+}
+
+#landing-banner .content-btn-group{
+    margin-top: 22px;
+    display: inline-flex;
+    align-items: center;
+    gap: 24px;
+}
+
+#landing-banner .content-text-group .label-text{
+    font-size: 20px;
+    color: var(--brown-light)
+}
+
+#landing-banner .content-text-group .fancy-text{
+    font-size: 72px;
+}
+

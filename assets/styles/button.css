@@ -1,0 +1,18 @@
+
+
+.btn {
+    display: inline-block;
+    padding: 16px 24px;
+}
+
+.btn.filled {
+    background-color: var(--brown-dark);
+    border-radius: 8px;
+    border: solid 1px #000000;
+}
+
+.btn.text {
+    display: inline-flex;
+    align-items: center;
+    gap:8px;
+}
